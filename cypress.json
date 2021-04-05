@@ -1,0 +1,12 @@
+{
+    "pageLoadTimeout": 5000,
+    "defaultCommandTimeout": 5000,
+
+    "env":{
+        "url" : "http://localhost:3000/"
+      },
+      
+    "testFiles": "**/*.feature"
+      
+      
+}

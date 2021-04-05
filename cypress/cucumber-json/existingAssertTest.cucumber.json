@@ -1,0 +1,873 @@
+[
+  {
+    "description": "    Check all the functionalities in existing assert tab",
+    "keyword": "Feature",
+    "name": "Existing Assert",
+    "line": 1,
+    "id": "existing-assert",
+    "tags": [],
+    "uri": "existingAssertTest.feature",
+    "elements": [
+      {
+        "id": "existing-assert;verify-showing-and-entries-at-bottom-of-the-assert-list",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "verify showing and entries at bottom of the assert list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 1055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Set the show entries 10",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the show entry results",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;verify-showing-and-entries-at-bottom-of-the-assert-list",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "verify showing and entries at bottom of the assert list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 7461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Set the show entries 20",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the show entry results",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;verify-showing-and-entries-at-bottom-of-the-assert-list",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "verify showing and entries at bottom of the assert list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Set the show entries 50",
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the show entry results",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;verify-showing-and-entries-at-bottom-of-the-assert-list",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "verify showing and entries at bottom of the assert list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 2387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Set the show entries 100",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the show entry results",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;sort-the-assert-by-ascending-and-verify",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Sort the assert by ascending and verify",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Click on sort assert",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify the ascending sorted order list",
+            "result": {
+              "status": "passed",
+              "duration": 2143000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;sort-the-assert-by-descending-and-verify",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Sort the assert by descending and verify",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Click on sort two times",
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Verify the descending sorted order list",
+            "result": {
+              "status": "passed",
+              "duration": 2065000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-asserts-and-click-sort-and-verify-ascending-ordered-assert",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Search for asserts and click sort and verify ascending ordered assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 11419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Enter a valid assert in search assert field",
+            "result": {
+              "status": "passed",
+              "duration": 360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Click on sort assert",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Verify the ascending sorted order list",
+            "result": {
+              "status": "passed",
+              "duration": 1731000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-asserts-and-click-sort-and-verify-descending-ordered-assert",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Search for asserts and click sort and verify descending ordered assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 14437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Enter a valid assert in search assert field",
+            "result": {
+              "status": "passed",
+              "duration": 375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "Click on sort two times",
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify the descending sorted order list",
+            "result": {
+              "status": "passed",
+              "duration": 1753000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-the-valid-assert-and-verify",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Search the valid assert and verify",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 43
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 12471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "Type the assert \"ASHO\"",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Verify the results showing \"ASHO\"",
+            "result": {
+              "status": "passed",
+              "duration": 943000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-the-valid-assert-and-verify",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Search the valid assert and verify",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 43
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 6431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "Type the assert \"7708\"",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Verify the results showing \"7708\"",
+            "result": {
+              "status": "passed",
+              "duration": 943000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-the-valid-assert-and-verify",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Search the valid assert and verify",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 43
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "Type the assert \"ASHO7708\"",
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Verify the results showing \"ASHO7708\"",
+            "result": {
+              "status": "passed",
+              "duration": 622000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-invalid-assert-and-verify-no-matching-found-text",
+        "keyword": "Scenario",
+        "line": 61,
+        "name": "Search for invalid assert and verify no matching found text",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 7397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Type the assert \"oeuiu\"",
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Verify the no matching message",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-invalid-assert-and-verify-no-matching-found-text",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Search for invalid assert and verify no matching found text",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Type the assert \"slkdf\"",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Verify the no matching message",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-invalid-assert-and-verify-no-matching-found-text",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Search for invalid assert and verify no matching found text",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Type the assert \"@#$Sf\"",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Verify the no matching message",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-invalid-assert-and-verify-no-matching-found-text",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Search for invalid assert and verify no matching found text",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Type the assert \"123ABS\"",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Verify the no matching message",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-an-assert-and-verify-the-show-entry",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Search for an assert and verify the show entry",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 13380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "Enter a valid assert in search assert field",
+            "result": {
+              "status": "passed",
+              "duration": 368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "Set the show entries 10",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "Verify the show entry results",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-an-assert-and-verify-the-show-entry",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "Search for an assert and verify the show entry",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 10412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "Enter a valid assert in search assert field",
+            "result": {
+              "status": "passed",
+              "duration": 379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "Set the show entries 50",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "Verify the show entry results",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "existing-assert;search-for-an-assert-and-verify-the-show-entry",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Search for an assert and verify the show entry",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "Navigate to Existing assert tab",
+            "result": {
+              "status": "passed",
+              "duration": 395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "Enter a valid assert in search assert field",
+            "result": {
+              "status": "passed",
+              "duration": 364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "Set the show entries 100",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "Verify the show entry results",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

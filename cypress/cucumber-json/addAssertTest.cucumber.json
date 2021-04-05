@@ -1,0 +1,565 @@
+[
+  {
+    "description": "    Check all the functionalities in add assert tab",
+    "keyword": "Feature",
+    "name": "Add Assert",
+    "line": 1,
+    "id": "add-assert",
+    "tags": [],
+    "uri": "addAssertTest.feature",
+    "elements": [
+      {
+        "id": "add-assert;add-a-unique-assert-and-verify-the-added-assert-in-the-list",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add a unique assert and verify the added assert in the list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Enter a valid assert in the new assert textbox",
+            "result": {
+              "status": "passed",
+              "duration": 1757000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The assert should added in the existing assert",
+            "result": {
+              "status": "passed",
+              "duration": 15190000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;add-a-valid-assert-and-verify-the-format-message",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Add a valid assert and verify the format message",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "Enter a valid assert in the new assert textbox",
+            "result": {
+              "status": "passed",
+              "duration": 701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Verify the correct format message",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;add-an-existing-assert-and-verify-the-error-message",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Add an existing assert and verify the error message",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Enter an existing assert",
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify assert already exist message",
+            "result": {
+              "status": "failed",
+              "duration": 5012000000,
+              "error_message": "AssertionError: Timed out retrying: expected '<h4.modal-title>' to have text 'Asset already exist', but the text was 'Asset alredy exist'\n    + expected - actual\n\n    -'Asset alredy exist'\n    +'Asset already exist'\n\n    at AddAssertPage.verifyAssertExistMessage (http://localhost:3000/__cypress/tests?p=cypress/integration/addAssert/addAssertTest.feature:198:35)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/addAssert/addAssertTest.feature:87:17)\n    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/addAssert/addAssertTest.feature:10967:9)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/addAssert/addAssertTest.feature:10308:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;add-a-vaid-assert,-edit-to-incorrect-and-verify-the-incorrect-message",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Add a vaid assert, edit to incorrect and verify the incorrect message",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "Enter a valid assert in the new assert textbox",
+            "result": {
+              "status": "passed",
+              "duration": 1005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Close the success popup",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Verify the incorrect format message after editing a assert",
+            "result": {
+              "status": "passed",
+              "duration": 389000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;verify-invalid-assert-tooltip-message-for-empty-assert",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Verify invalid assert tooltip message for empty assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Enter an empty assert",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Verify tooltip for empty assert",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;verify-invalid-assert-tooltip-message-for-invalid-assert",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify invalid assert tooltip message for invalid assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Enter an invalid assert \"ASHO770843415\"",
+            "result": {
+              "status": "passed",
+              "duration": 626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify tooltip for an invalid assert",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;verify-invalid-assert-tooltip-message-for-invalid-assert",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Verify invalid assert tooltip message for invalid assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Enter an invalid assert \"ASHO77084341531\"",
+            "result": {
+              "status": "passed",
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify tooltip for an invalid assert",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;verify-invalid-assert-tooltip-message-for-invalid-assert",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Verify invalid assert tooltip message for invalid assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Enter an invalid assert \"lkjio\"",
+            "result": {
+              "status": "passed",
+              "duration": 510000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify tooltip for an invalid assert",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;verify-invalid-assert-tooltip-message-for-invalid-assert",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Verify invalid assert tooltip message for invalid assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Enter an invalid assert \"1235\"",
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify tooltip for an invalid assert",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;verify-invalid-assert-tooltip-message-for-invalid-assert",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Verify invalid assert tooltip message for invalid assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Enter an invalid assert \"@#$%@\"",
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify tooltip for an invalid assert",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;verify-invalid-assert-tooltip-message-for-invalid-assert",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Verify invalid assert tooltip message for invalid assert",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Enter an invalid assert \"AS@#678\"",
+            "result": {
+              "status": "passed",
+              "duration": 598000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify tooltip for an invalid assert",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-assert;verify-success-message-header",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Verify Success message header",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 50
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "Enter a valid assert in the new assert textbox",
+            "result": {
+              "status": "passed",
+              "duration": 684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "Click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "Verify the success header message",
+            "result": {
+              "status": "failed",
+              "duration": 5011000000,
+              "error_message": "AssertionError: Timed out retrying: expected '<h4.modal-title>' to have text 'Success', but the text was 'Sucssess'\n    + expected - actual\n\n    -'Sucssess'\n    +'Success'\n\n    at AddAssertPage.verifySuccessMessageHeader (http://localhost:3000/__cypress/tests?p=cypress/integration/addAssert/addAssertTest.feature:217:44)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/addAssert/addAssertTest.feature:121:17)\n    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/addAssert/addAssertTest.feature:10967:9)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/addAssert/addAssertTest.feature:10308:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
